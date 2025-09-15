@@ -1,0 +1,177 @@
+{
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "search": "Search",
+    "filter": "Filter"
+  },
+  "navigation": {
+    "home": "Home",
+    "history": "History",
+    "create": "Create",
+    "groups": "Groups",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "betDetail": "Bet Details",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "BetMates",
+    "activeBets": "Active Bets",
+    "createBet": "Create Bet",
+    "emptyState": "No active bets yet. Start one!",
+    "filters": {
+      "all": "All",
+      "mine": "1v1s",
+      "group": "Group"
+    }
+  },
+  "history": {
+    "title": "History",
+    "summary": {
+      "youOwe": "You owe {{name}} {{count}} challenge",
+      "youOwe_plural": "You owe {{name}} {{count}} challenges",
+      "youWon": "You've won {{count}} bet",
+      "youWon_plural": "You've won {{count}} bets",
+      "theyOwe": "They owe you {{count}} punishment",
+      "theyOwe_plural": "They owe you {{count}} punishments"
+    },
+    "tabs": {
+      "all": "All",
+      "won": "Won",
+      "lost": "Lost",
+      "owed": "Owed",
+      "paid": "Paid"
+    }
+  },
+  "create": {
+    "title": "Create Bet",
+    "participants": "Participants",
+    "participantsHelp": "Select at least 2 people",
+    "betType": "Bet Type",
+    "stake": "Stake",
+    "description": "Description",
+    "deadline": "Deadline (Optional)",
+    "proposeDoubleToggle": "Allow proposing double later",
+    "sendForConfirmation": "Send for confirmation",
+    "symbolicOnly": "Symbolic only. No real money handled.",
+    "types": {
+      "money": "Money",
+      "favor": "Favor",
+      "challenge": "Challenge"
+    },
+    "validation": {
+      "minParticipants": "Select at least 2 participants",
+      "selectType": "Choose a bet type",
+      "enterStake": "Enter the stake amount or description",
+      "enterDescription": "Enter a description"
+    }
+  },
+  "groups": {
+    "title": "Groups",
+    "myGroups": "My Groups",
+    "publicGroups": "Public Groups",
+    "joinGroup": "Join Group",
+    "newGroup": "New Group",
+    "createBetInGroup": "Create Bet in Group",
+    "members": "{{count}} member",
+    "members_plural": "{{count}} members",
+    "activeBets": "{{count}} active bet",
+    "activeBets_plural": "{{count}} active bets",
+    "create": {
+      "groupName": "Group Name",
+      "private": "Private",
+      "public": "Public",
+      "createGroup": "Create Group"
+    },
+    "join": {
+      "groupCode": "Group Code",
+      "searchGroups": "Search Public Groups",
+      "joinGroup": "Join Group"
+    }
+  },
+  "betDetail": {
+    "proposeDouble": "Propose Double",
+    "accept": "Accept",
+    "decline": "Decline",
+    "resolveBet": "Resolve Bet",
+    "selectWinner": "Select winner",
+    "confirmResolution": "Confirm resolution",
+    "status": {
+      "pending": "Pending confirmation",
+      "active": "Active",
+      "doubleProposed": "Double proposed",
+      "resolved": "Resolved",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    },
+    "outcomes": {
+      "youWon": "You Won!",
+      "youLost": "You Lost",
+      "draw": "Draw"
+    },
+    "timeline": {
+      "created": "Bet created",
+      "confirmed": "Bet confirmed",
+      "declined": "Bet declined",
+      "doubleProposed": "Double proposed",
+      "doubleAccepted": "Double accepted",
+      "doubleDeclined": "Double declined",
+      "resolved": "Bet resolved"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all as read",
+    "types": {
+      "betCreated": "New bet created",
+      "betConfirmationRequest": "Bet confirmation needed",
+      "betConfirmed": "Bet confirmed",
+      "betDeclined": "Bet declined",
+      "doubleProposed": "Double proposed",
+      "doubleApproved": "Double approved",
+      "doubleDeclined": "Double declined",
+      "betResolveReminder": "Reminder: Resolve bet",
+      "betResolved": "Bet resolved"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "stats": "Stats",
+    "totalBets": "Total Bets",
+    "wins": "Wins",
+    "losses": "Losses",
+    "open": "Open",
+    "challengesCompleted": "Challenges Completed",
+    "editProfile": "Edit Profile",
+    "language": "Language",
+    "signOut": "Sign Out",
+    "deleteAccount": "Delete Account"
+  },
+  "auth": {
+    "welcome": "Welcome to BetMates",
+    "subtitle": "Track casual bets and dares with friends",
+    "signInWithApple": "Sign in with Apple",
+    "signInWithGoogle": "Sign in with Google",
+    "continueAsGuest": "Continue as Guest",
+    "upgradeAccount": "Upgrade Account",
+    "signOut": "Sign Out"
+  },
+  "errors": {
+    "general": "Something went wrong. Please try again.",
+    "network": "Network error. Check your connection.",
+    "auth": "Authentication failed. Please try again.",
+    "permission": "You don't have permission to perform this action.",
+    "notFound": "The requested item was not found.",
+    "validation": "Please check your input and try again."
+  }
+}

@@ -24,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebaseApiKey": "demo-key-for-local-development",
+      "firebaseAuthDomain": "betmates-demo.firebaseapp.com",
+      "firebaseProjectId": "betmates-demo",
+      "firebaseStorageBucket": "betmates-demo.appspot.com",
+      "firebaseMessagingSenderId": "123456789",
+      "firebaseAppId": "1:123456789:web:demo-app-id"
     }
   }
 }

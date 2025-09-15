@@ -1,0 +1,47 @@
+{
+  "common": {
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "done": "Terminé",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "search": "Rechercher",
+    "filter": "Filtrer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "history": "Historique",
+    "create": "Créer",
+    "groups": "Groupes",
+    "profile": "Profil",
+    "notifications": "Notifications",
+    "betDetail": "Détails du Pari",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "title": "BetMates",
+    "activeBets": "Paris Actifs",
+    "createBet": "Créer un Pari",
+    "emptyState": "Aucun pari actif pour le moment. Commencez-en un!",
+    "filters": {
+      "all": "Tous",
+      "mine": "1v1s",
+      "group": "Groupe"
+    }
+  },
+  "auth": {
+    "welcome": "Bienvenue sur BetMates",
+    "subtitle": "Suivez les paris décontractés et les défis avec vos amis",
+    "signInWithApple": "Se connecter avec Apple",
+    "signInWithGoogle": "Se connecter avec Google",
+    "continueAsGuest": "Continuer en tant qu'invité",
+    "upgradeAccount": "Mettre à jour le compte",
+    "signOut": "Se déconnecter"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "common": {
+    "yes": "Sim",
+    "no": "Não",
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "done": "Concluído",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "retry": "Tentar novamente",
+    "search": "Pesquisar",
+    "filter": "Filtrar"
+  },
+  "navigation": {
+    "home": "Início",
+    "history": "Histórico",
+    "create": "Criar",
+    "groups": "Grupos",
+    "profile": "Perfil",
+    "notifications": "Notificações",
+    "betDetail": "Detalhes da Aposta",
+    "settings": "Configurações"
+  },
+  "home": {
+    "title": "BetMates",
+    "activeBets": "Apostas Ativas",
+    "createBet": "Criar Aposta",
+    "emptyState": "Nenhuma aposta ativa ainda. Comece uma!",
+    "filters": {
+      "all": "Todas",
+      "mine": "1v1s",
+      "group": "Grupo"
+    }
+  },
+  "auth": {
+    "welcome": "Bem-vindo ao BetMates",
+    "subtitle": "Acompanhe apostas casuais e desafios com amigos",
+    "signInWithApple": "Entrar com Apple",
+    "signInWithGoogle": "Entrar com Google",
+    "continueAsGuest": "Continuar como Convidado",
+    "upgradeAccount": "Atualizar Conta",
+    "signOut": "Sair"
+  }
+}
