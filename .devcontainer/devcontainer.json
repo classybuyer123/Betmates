@@ -33,5 +33,6 @@
       "onAutoForward": "notify"
     }
   },
-  "remoteUser": "node"
+  "remoteUser": "node",
+  "postCreateCommand": "cd /workspaces/BetMates && npm install --legacy-peer-deps"
 }

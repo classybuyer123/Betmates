@@ -35,4 +35,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-.vercel
+
+# generated native folders
+/ios
+/android

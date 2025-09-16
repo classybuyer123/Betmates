@@ -10,7 +10,10 @@ cd /workspaces/BetMates
 
 # Ensure we're using Node 20
 echo "📦 Setting up Node.js 20..."
-nvm use 20 > /dev/null 2>&1 || nvm install 20 && nvm use 20
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm use 20 > /dev/null 2>&1 || (nvm install 20 && nvm use 20)
+nvm alias default 20
 
 # Install dependencies if node_modules doesn't exist
 if [ ! -d "node_modules" ]; then

@@ -13,14 +13,19 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.classybuyer123.BetMates",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.classybuyer123.BetMates"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,7 +36,16 @@
       "firebaseProjectId": "betmates-demo",
       "firebaseStorageBucket": "betmates-demo.appspot.com",
       "firebaseMessagingSenderId": "123456789",
-      "firebaseAppId": "1:123456789:web:demo-app-id"
+      "firebaseAppId": "1:123456789:web:demo-app-id",
+      "eas": {
+        "projectId": "577a4805-75b2-4890-b8a6-554d5744289a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/577a4805-75b2-4890-b8a6-554d5744289a"
     }
   }
 }
